@@ -46,9 +46,6 @@ public class User {
         return timestamp;
     }
 
-
-    /// de adus toate  geter
-
     public void setFirstname(String firstname) {
         this.firstname = firstname;
     }
@@ -73,14 +70,12 @@ public class User {
         this.timestamp = dateTime;
     }
 
-       // de facut pentru toate seter
     @Override
     public String toString() {
         return String.format(firstname + " " + lastname + " " + age + " " + status);
     }
 }
 
-//Enum--> Valori constante
 enum status {
     ACTIVE,
     INACTIVE,

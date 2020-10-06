@@ -22,7 +22,8 @@ public class Main {
         usersList.add(user5);
 
         listUsers(usersList);
-    ///    activateUsersOlderThanYesterday(usersList);
+
+        //activateUsersOlderThanYesterday(usersList);
         activateUsersOlderThanOneMonth(usersList);
         listUsers(usersList);
 
@@ -53,4 +54,3 @@ public class Main {
         }
     }
 }
-
